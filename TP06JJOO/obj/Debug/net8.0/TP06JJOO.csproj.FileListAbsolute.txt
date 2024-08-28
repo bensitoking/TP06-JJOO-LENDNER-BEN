@@ -35,3 +35,4 @@ C:\Users\david\Desktop\Tp06\TP06JJOO\obj\Debug\net8.0\refint\TP06JJOO.dll
 C:\Users\david\Desktop\Tp06\TP06JJOO\obj\Debug\net8.0\TP06JJOO.pdb
 C:\Users\david\Desktop\Tp06\TP06JJOO\obj\Debug\net8.0\TP06JJOO.genruntimeconfig.cache
 C:\Users\david\Desktop\Tp06\TP06JJOO\obj\Debug\net8.0\ref\TP06JJOO.dll
+C:\Users\david\Desktop\Tp06\TP06JJOO\obj\Debug\net8.0\TP06JJOO.sourcelink.json

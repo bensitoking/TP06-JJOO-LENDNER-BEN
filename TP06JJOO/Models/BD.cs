@@ -1,7 +1,8 @@
     using System.Data.SqlClient;
     using System.Reflection.Metadata.Ecma335;
     using Dapper;
-    public static class BD
+using Microsoft.AspNetCore.Mvc;
+public static class BD
     {
    private static string _connectionString = @"Server=.\SQLEXPRESS;DataBase=JJOO;Trusted_Connection=True;";
 
@@ -98,4 +99,24 @@
         return ListaDeportes;
     }
 
+    public static List<Deportista> listarDeportistas()
+    {
+        List<Deportista> ListaDeportistas= new List<Deportista>();
+        using(SqlConnection db = new SqlConnection(_connectionString))
+        {
+            string SQL = "SELECT * FROM Deportistas";
+            ListaDeportistas = db.Query<Deportista>(SQL).ToList();
+        }
+        return ListaDeportistas;
+    }
+
+
+    public static int ObtenerCantDeportistas()
+    {
+        string SQL = "SELECT COUNT(idDeportista) FROM Deportistas";
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            return db.QueryFirstOrDefault<int>(SQL);
+        }
+    }
     }

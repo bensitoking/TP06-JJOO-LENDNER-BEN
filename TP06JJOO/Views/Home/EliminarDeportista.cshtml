@@ -1,6 +1,7 @@
 @{
     ViewData["Title"] = "Eliminar Deportista";
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,21 @@
         <div class="card">
             <h2>Eliminar Deportista</h2>
             <p>¿Estás seguro de que deseas eliminar este deportista?</p>
-            <form asp-action="EliminarDeportistaBD" method="post">
+            <form asp-action="Eliminacion" method="post">
+                <label for="deportista">Selecciona el deportista a eliminar:</label>
+                <select id="deportista" name="pIdDeportista" required>
+                    @if (ViewBag.Deportistas != null)
+                    {
+                        @foreach (Deportista deportista in ViewBag.Deportistas)
+                        {
+                            <option value="@deportista.idDeportista">@deportista.Nombre @deportista.Apellido</option>
+                        }
+                    }
+                    else
+                    {
+                        <option value="">No hay deportistas disponibles</option>
+                    }
+                </select>
                 <button type="submit" class="button">Eliminar</button>
             </form>
         </div>

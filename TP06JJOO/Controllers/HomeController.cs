@@ -65,19 +65,17 @@ namespace TP06JJOO.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult EliminarDeportistaBD(int idDeportista)
+        [HttpPost]
+        public IActionResult Eliminacion(int pIdDeportista)
         {
-            BD.eliminarDeportista(idDeportista);
+            BD.eliminarDeportista(pIdDeportista);
             return RedirectToAction("Index");
         }
         
         public IActionResult EliminarDeportista()
         {
-            {
-            ViewBag.ListaDeportes = BD.listarDeporte();
-            ViewBag.ListaPaises = BD.listarPaises();
+            ViewBag.Deportistas = BD.listarDeportistas();
             return View();
-        }
         }
 
         public IActionResult Creditos()
