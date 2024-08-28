@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - TP06JJOO</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+    @RenderSection("Styles", false)
+</head>
+<body>
+    <header>
+        <h1>JJOO</h1>
+    </header>
+    <nav>
+        <a href="@Url.Action("Index", "Home")">Inicio</a>
+        <a href="@Url.Action("Historia", "Home")">Historia</a>
+        <a href="@Url.Action("Deportes", "Home")">Deportes</a>
+        <a href="@Url.Action("Paises", "Home")">Paises</a>
+        <a href="@Url.Action("AgregarDeportista", "Home")">Agregar Deportista</a>
+        <a href="@Url.Action("EliminarDeportista", "Home")">Eliminar Deportista</a>
+        <a href="@Url.Action("Creditos", "Home")">Créditos</a>
+    </nav>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+    <footer>
+        <p>&copy; 2024 TP06JJOO. Todos los derechos reservados.</p>
+    </footer>
+    @RenderSection("Scripts", false)
+</body>
+</html>

@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "DetallePais";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - TP06JJOO</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <h2>@ViewBag.VerInfoPais.Nombre</h2>
+
+            <h3>Deportistas de este País</h3>
+            <ul>
+                @foreach (var deportista in ViewBag.ListarDeportistasxPais)
+                {
+                    <li>
+                        <a href="@Url.Action("DetalleDeportista", "Home", new { idDeportista= deportista.idDeportista })">@deportista.Nombre @deportista.Apellido</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 TP06JJOO. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

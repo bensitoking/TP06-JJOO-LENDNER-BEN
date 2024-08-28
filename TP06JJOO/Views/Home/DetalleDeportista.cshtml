@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Detalle Deportista";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - TP06JJOO</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <h2>@ViewBag.VerInfoDeportista.Nombre @ViewBag.VerInfoDeportista.Apellido</h2>
+            <p><strong>Fecha de Nacimiento:</strong> @ViewBag.VerInfoDeportista.FechaNacimiento.ToString("dd/MM/yyyy")</p>
+            <p><strong>Deporte:</strong><a href="@Url.Action("DetalleDeporte", "Home", new { idDeporte = ViewBag.VerInfoDeportista.idDeporte })">Deporte</a></p>
+            <p><strong>País:</strong> <a href="@Url.Action("DetallePais", "Home", new { idPais = ViewBag.VerInfoDeportista.idPais })">País</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 TP06JJOO. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

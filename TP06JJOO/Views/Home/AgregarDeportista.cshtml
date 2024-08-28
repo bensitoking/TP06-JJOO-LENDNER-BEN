@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Agregar Deportista";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - TP06JJOO</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <h2>Agregar Nuevo Deportista</h2>
+            <form asp-action="GuardarDeportista" method="post">
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="Apellido" name="Apellido" required>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" required>
+                <label for="FechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="FechaNacimiento" name="FechaNacimiento" required>
+                <label for="Foto">Foto:</label>
+                <input type="text" id="Foto" name="Foto">
+                <label for="idPais">País:</label>
+                <select id="idPais" name="idPais">
+                    @foreach (var pais in ViewBag.ListaPaises)
+                    {
+                        <option value="@pais.idPais">@pais.Nombre</option>
+                    }
+                </select>
+                <label for="idDeporte">Deporte:</label>
+                <select id="idDeporte" name="idDeporte">
+                    @foreach (var deporte in ViewBag.ListaDeportes)
+                    {
+                        <option value="@deporte.idDeporte">@deporte.Nombre</option>
+                    }
+                </select>
+                <button type="submit" class="button">Guardar Deportista</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 TP06JJOO. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

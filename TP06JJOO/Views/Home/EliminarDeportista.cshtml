@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Eliminar Deportista";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - TP06JJOO</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <h2>Eliminar Deportista</h2>
+            <p>¿Estás seguro de que deseas eliminar este deportista?</p>
+            <form asp-action="EliminarDeportistaBD" method="post">
+                <button type="submit" class="button">Eliminar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 TP06JJOO. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
