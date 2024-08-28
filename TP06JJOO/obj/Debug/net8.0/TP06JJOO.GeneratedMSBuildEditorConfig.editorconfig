@@ -9,67 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP06JJOO
 build_property.RootNamespace = TP06JJOO
-build_property.ProjectDir = C:\Users\david\Desktop\Tp06\TP06JJOO\
+build_property.ProjectDir = C:\Users\48591419\Desktop\JJOO\TP06-JJOO-LENDNER-BEN\TP06JJOO\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\david\Desktop\Tp06\TP06JJOO
+build_property.MSBuildProjectDirectory = C:\Users\48591419\Desktop\JJOO\TP06-JJOO-LENDNER-BEN\TP06JJOO
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/AgregarDeportista.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/AgregarDeportista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/Creditos.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/Deportes.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/Deportes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/DetalleDeporte.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/DetalleDeporte.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlRGVwb3J0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/DetalleDeportista.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/DetalleDeportista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/DetallePais.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/DetallePais.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlUGFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/EliminarDeportista.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/EliminarDeportista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbGltaW5hckRlcG9ydGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/Historia.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/Historia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/Index.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Home/Paises.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Home/Paises.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWlzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Shared/_Layout.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/_ViewImports.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/david/Desktop/Tp06/TP06JJOO/Views/_ViewStart.cshtml]
+[C:/Users/48591419/Desktop/JJOO/TP06-JJOO-LENDNER-BEN/TP06JJOO/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

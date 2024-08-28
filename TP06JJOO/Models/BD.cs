@@ -4,7 +4,7 @@
 using Microsoft.AspNetCore.Mvc;
 public static class BD
     {
-   private static string _connectionString = @"Server=.\SQLEXPRESS;DataBase=JJOO;Trusted_Connection=True;";
+   private static string _connectionString = @"Server=A-PHZ2-LUM-15;DataBase=JJOO;Trusted_Connection=True;";
 
     public static void agregarDeportista(Deportista dep)    
     {
